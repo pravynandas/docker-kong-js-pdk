@@ -1,4 +1,4 @@
-FROM kong:latest
+FROM kong:3.0.1
 
 # Install the js-pluginserver
 USER root
