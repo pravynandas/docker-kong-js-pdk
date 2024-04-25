@@ -6,6 +6,9 @@ services:
     url: https://api.github.com/repos/kong/kong
     plugins:
       - name: json-to-yaml
+      - name: clacks      
+        config:
+          use_prefix: true
     routes:
       - name: github-yaml
         paths:
